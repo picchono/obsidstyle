@@ -65,7 +65,7 @@ Source:
   - https://github.com/nextapps-de/flexsearch#index-documents-field-search
   - https://raw.githack.com/nextapps-de/flexsearch/master/demo/autocomplete.html
   - http://elasticlunr.com/
-  - https://github.com/getzola/zola/blob/master/docs/static/search.js
+  - https://github.com/getepier/epier/blob/master/docs/static/search.js
 */
 (function(){
   var index = elasticlunr.Index.load(window.searchIndex);

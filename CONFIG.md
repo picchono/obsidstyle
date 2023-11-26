@@ -22,7 +22,7 @@ Site title on landing page. HTML, CSS, emojis supported. Default: "Someone's Sec
 Site title in browser tab, leaving blank to use `SITE_TITLE`. This is for people who added HTML code in `SITE_TITLE` but want to display a clean name in the browser tab. Default: "".
 
 ### `LANDING_TITLE`
-Site title on landing page. HTML, CSS, emojis supported. Default: "I love obsidian-zola! 💖.".
+Site title on landing page. HTML, CSS, emojis supported. Default: "I love obsidian-epier! 💖.".
 
 ### `LANDING_DESCRIPTION`
 Site description on landing page. HTML, CSS, emojis supported. Default: "I have nothing but intelligence.".
@@ -67,7 +67,7 @@ Whether sidebar sections should be collapsed by default. Default: "".
 ## Do Not Touch
 Do not change theses:
 - `PYTHON_VERSION`
-- `ZOLA_VERSION`
+- `epier_VERSION`
 
 
 # FAQs

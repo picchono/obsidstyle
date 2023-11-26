@@ -283,7 +283,7 @@ class Settings:
         "TIMEZONE": "Asia/Hong_Kong",
         "REPO_URL": None,
         "LANDING_PAGE": None,
-        "LANDING_TITLE": "I love obsidian-zola! 💖",
+        "LANDING_TITLE": "I love obsidian-epier! 💖",
         "SITE_TITLE_TAB": "",
         "LANDING_DESCRIPTION": "I have nothing but intelligence.",
         "LANDING_BUTTON": "Click to steal some👆",
