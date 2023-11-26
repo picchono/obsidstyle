@@ -46,7 +46,7 @@ GRAPH_OPTIONS = """
         		shape: "dot",
         		color: isDark() ? "#8c8e91" : "#dee2e6",
         		font: {
-        			face: "Inter",
+        			face: "Ubuntu",
         			color: isDark() ? "#c9cdd1" : "#616469",
         			strokeColor: isDark() ? "#c9cdd1" : "#616469",
         		},
