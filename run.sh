@@ -5,8 +5,8 @@ pip install python-slugify
 # Avoid copying over netlify.toml (will ebe exposed to public API)
 echo "netlify.toml" >>__obsidian/.gitignore
 
-# Sync epier template contents
-rsync -a __site/epier/ __site/build
+# Sync zola template contents
+rsync -a __site/zola/ __site/build
 rsync -a __site/content/ __site/build/content
 
 # Use obsidian-export to export markdown content from obsidian
@@ -20,5 +20,5 @@ fi
 # Run conversion script
 python __site/convert.py
 
-# Build epier site
-epier --root __site/build build --output-dir public
+# Build zola site
+zola --root __site/build build --output-dir public

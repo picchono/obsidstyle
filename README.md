@@ -2,15 +2,15 @@
   <img height="200" src="icon.png">
 </p>
 
-# obsidian-epier
+# obsidian-zola
 
-![](https://img.shields.io/github/v/release/ppeetteerrs/obsidian-epier)
-![](https://img.shields.io/github/issues-closed-raw/ppeetteerrs/obsidian-epier)
+![](https://img.shields.io/github/v/release/ppeetteerrs/obsidian-zola)
+![](https://img.shields.io/github/issues-closed-raw/ppeetteerrs/obsidian-zola)
 ![](https://img.shields.io/badge/dynamic/json?color=blueviolet&label=today%27s%20views&query=%24.datasets%5B1%5D.values%5B%28%40.length-1%29%5D&url=https%3A%2F%2Fyhype.me%2Fapi%2Fchart%2Frepository_views_count_chart_controller%3FrepositoryNodeId%3DR_kgDOGpHp4A)
 
 A free (but better?) alternative to Obsidian Publish.
 
-> This repo contains an easy-to-use (read: simplistic) solution for converting an Obsidian Personal Knowledge Management System (read: bunch of random Markdowns) into a epier site.
+> This repo contains an easy-to-use (read: simplistic) solution for converting an Obsidian Personal Knowledge Management System (read: bunch of random Markdowns) into a zola site.
 
 Credits: This repo was forked from [Adidoks](https://github.com/aaranxu/adidoks).
 
@@ -50,7 +50,7 @@ Improvements:
 
 **Step 4: Issues & Feature Requests**
 
-- If you encounter any issues, first refer to [Config+FAQ](https://github.com/ppeetteerrs/obsidian-epier/blob/main/CONFIG.md). If still unsolved, just post in the `Issues` tab. It would be good to include a copy of the error log found in the Netlify panel if the issue is related to deployment.
+- If you encounter any issues, first refer to [Config+FAQ](https://github.com/ppeetteerrs/obsidian-zola/blob/main/CONFIG.md). If still unsolved, just post in the `Issues` tab. It would be good to include a copy of the error log found in the Netlify panel if the issue is related to deployment.
 - If you have any feature request, do post an issue also. However, please this repo is intended as a one-file setup. Advanced features / detailed configurability will not be supported unless it is wanted by most users. However, I can provide help for you to implement a fork that suits your needs 🥂.
 
 **Step 5: (Optional Enhancement) Auto Sitemap Submit**
@@ -84,13 +84,13 @@ providers = [
 
 > Do not copy `netlify.toml` from example site, it is unstable. Please reference from `netlify.example.toml`.
 
-The [example site](https://peteryuen.netlify.app/) shows the capabilities of `obsidian-epier`. Note that the example site uses the `dev` branch of `obsidian-epier`. If you see features that are available in the example site but are not available in the main branch yet, consider trying out the `dev` (unstable) branch. Exact method can be referenced from the [example repo's](https://github.com/ppeetteerrs/obsidian-pkm) `netlify.toml`.
+The [example site](https://peteryuen.netlify.app/) shows the capabilities of `obsidian-zola`. Note that the example site uses the `dev` branch of `obsidian-zola`. If you see features that are available in the example site but are not available in the main branch yet, consider trying out the `dev` (unstable) branch. Exact method can be referenced from the [example repo's](https://github.com/ppeetteerrs/obsidian-pkm) `netlify.toml`.
 
 # Local Testing (Ubuntu) [thanks @trwbox]
 
-- Install epier from the instuctions on the site `https://www.getepier.org/documentation/getting-started/installation/`
+- Install zola from the instuctions on the site `https://www.getzola.org/documentation/getting-started/installation/`
 - Run the following commands to install other needed dependencies `sudo apt install python-is-python3 python3-pip` and `pip3 install python-slugify rtoml` (or use `conda` / `mamba`)
-- Use `git clone https://github.com/ppeetteerrs/obsidian-epier` to clone the repo to somewhere other than inside the Obsidian vault folder
+- Use `git clone https://github.com/ppeetteerrs/obsidian-zola` to clone the repo to somewhere other than inside the Obsidian vault folder
 - Set the path to the Obsisian vault using a `.vault_path` file or the `$VAULT` environment variable
 - use `./local-run.sh` to run the site
 

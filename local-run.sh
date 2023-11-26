@@ -6,9 +6,9 @@ if ! command -v python &>/dev/null; then
 	exit 1
 fi
 
-# Check for epier being installed
-if ! command -v epier &>/dev/null; then
-	echo "epier could not be found please install it from https://www.getepier.org/documentation/getting-started/installation"
+# Check for zola being installed
+if ! command -v zola &>/dev/null; then
+	echo "zola could not be found please install it from https://www.getzola.org/documentation/getting-started/installation"
 	exit 1
 fi
 
@@ -49,9 +49,9 @@ python env.py
 export SITE_URL=local
 export REPO_URL=local
 
-# Remove previous build and sync epier template contents
+# Remove previous build and sync zola template contents
 rm -rf build
-rsync -a epier/ build
+rsync -a zola/ build
 rsync -a content/ build/content
 
 # Use obsidian-export to export markdown content from obsidian
@@ -65,5 +65,5 @@ fi
 # Run conversion script
 source env.sh && python convert.py && rm env.sh
 
-# Serve epier site
-epier --root=build serve
+# Serve zola site
+zola --root=build serve
