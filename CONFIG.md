@@ -67,7 +67,7 @@ Whether sidebar sections should be collapsed by default. Default: "".
 ## Do Not Touch
 Do not change theses:
 - `PYTHON_VERSION`
-- `zola_VERSION`
+- `ZOLA_VERSION`
 
 
 # FAQs

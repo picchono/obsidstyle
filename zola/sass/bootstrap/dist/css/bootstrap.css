@@ -173,7 +173,7 @@ blockquote {
 
 b,
 strong {
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 small, .small {
@@ -522,8 +522,7 @@ progress {
 }
 
 .list-unstyled {
-  padding-left: 0.6rem;
-  padding-right: 1.5rem;
+  padding-left: 0;
   list-style: none;
 }
 

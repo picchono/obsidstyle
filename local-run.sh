@@ -49,7 +49,7 @@ python env.py
 export SITE_URL=local
 export REPO_URL=local
 
-# Remove previous build and sync zola template contents
+# Remove previous build and sync Zola template contents
 rm -rf build
 rsync -a zola/ build
 rsync -a content/ build/content
@@ -65,5 +65,5 @@ fi
 # Run conversion script
 source env.sh && python convert.py && rm env.sh
 
-# Serve zola site
+# Serve Zola site
 zola --root=build serve

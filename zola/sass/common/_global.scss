@@ -26,7 +26,7 @@ h6,
 
 @include media-breakpoint-up(md) {
   body {
-    font-size: $font-size-base;
+    font-size: $font-size-md;
     padding-top: 4rem !important;
   }
 
@@ -76,21 +76,17 @@ a.btn:focus {
   padding-bottom: 1rem;
 }
 
-
+/*
 .section svg {
   display: inline-block;
   width: 2rem;
   height: 2rem;
   vertical-align: text-top;
 }
-
+*/
 
 body {
   padding-top: 3.5625rem;
-  background-image: linear-gradient(to bottom right,var(--tw-gradient-stops));
-  --tw-gradient-from: #fff;
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
-  --tw-gradient-to: #f5f5f4;
 }
 
 .docs-sidebar {
@@ -233,17 +229,4 @@ article {
   hr {
     margin: 3rem 0;
   }
-}
-
-/* fixing */
-.globaldoc {
-  margin: 0 1%;
-}
-
-.flex-xl-nowrap {
-  justify-content: space-evenly;
-}
-
-.docs-content {
-  max-width: 780px;
 }
