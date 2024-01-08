@@ -86,7 +86,7 @@ providers = [
 
 The [example site](https://peteryuen.netlify.app/) shows the capabilities of `obsidian-zola`. Note that the example site uses the `dev` branch of `obsidian-zola`. If you see features that are available in the example site but are not available in the main branch yet, consider trying out the `dev` (unstable) branch. Exact method can be referenced from the [example repo's](https://github.com/ppeetteerrs/obsidian-pkm) `netlify.toml`.
 
-# Local Testing (Ubuntu) [thanks @trwbox]
+# Local Testing (Noto) [thanks @trwbox]
 
 - Install zola from the instuctions on the site `https://www.getzola.org/documentation/getting-started/installation/`
 - Run the following commands to install other needed dependencies `sudo apt install python-is-python3 python3-pip` and `pip3 install python-slugify rtoml` (or use `conda` / `mamba`)
