@@ -280,7 +280,7 @@ class Settings:
     options: Dict[str, Optional[str]] = {
         "SITE_URL": None,
         "SITE_TITLE": "Someone's Second 🧠",
-        "TIMEZONE": "Asia/Hong_Kong",
+        "TIMEZONE": "Euopre/Pais",
         "REPO_URL": None,
         "LANDING_PAGE": None,
         "LANDING_TITLE": "I love obsidian-zola! 💖",
